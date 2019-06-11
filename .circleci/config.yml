@@ -4,5 +4,6 @@ jobs:
    docker:
      - image: circleci/node:11.0.0
    steps:
-     - run:yarn add
-     -run yarn test
+    -checkout
+     -run:yarn add
+     -run:yarn test
