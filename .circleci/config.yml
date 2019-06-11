@@ -1,0 +1,8 @@
+version: 2.0
+jobs:
+ build:
+   docker:
+     - image: circleci/node:11.0.0
+   steps:
+     - run:yarn add
+     -run yarn test
