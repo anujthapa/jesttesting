@@ -5,5 +5,7 @@ jobs:
      - image: circleci/node:11.0.0
    steps:
     -checkout
-     -run:yarn install
-     -run:yarn test
+     -run:
+     command:"yarn install"
+     -run:
+     command : "yarn test"
