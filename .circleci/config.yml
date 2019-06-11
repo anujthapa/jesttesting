@@ -6,6 +6,6 @@ jobs:
    steps:
     -checkout
     -run:
-     command: "sudo yarn install"
+     command: " yarn install"
      -run:
-     command: "sudo yarn test"
+     command: " yarn test"
