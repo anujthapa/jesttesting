@@ -7,7 +7,7 @@ jobs:
     -checkout
      -run
      command: |-
-      yarn install
+      "yarn install"
      -run:
      command: |-
-      yarn test
+      "yarn test"
